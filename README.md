@@ -3,7 +3,7 @@ libpluck
 
 A library for plucking ripe CPU cores
 
-Any competent computer user knows that CPUs become ripe with usage. This is usually an effect of moving dirty memory into the cache as non-sequential instructions are executed. Individual cores, and eventually the entire CPU become ripe with usage. If not plucked in time, cores can go bad, with disastrous results for perfomance and reliability of the entire machine, not just the affected program.
+Any competent computer user knows that CPUs become ripe with usage. This is usually an effect of moving dirty memory into the cache as non-sequential instructions are executed. Individual cores, and eventually the entire CPU become ripe with usage. If not plucked in time, cores can go bad, or spoil in technical parlance, with disastrous results for perfomance and reliability of the entire machine, not just the affected program.
 
 Most users rely on random pieces of code called "pluckers" which align themselves in such a fortuitous manner that they effectively undo the effects of dirty memory. Unfortunately conincidental pluckers usually do not occur frequently enough to fully compensate for the accumulated RAM garbage, eventually requiring a periodic reboot of every machine.
 
